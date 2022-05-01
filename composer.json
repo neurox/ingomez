@@ -1,0 +1,24 @@
+{
+    "name": "neurox/ingomez",
+    "type": "project",
+    "require": {
+        "johnpbloch/wordpress": "^5.9"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Neurox\\Ingomez\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Gomez",
+            "email": "juanjose@ingomez.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true
+        }
+    }
+}
